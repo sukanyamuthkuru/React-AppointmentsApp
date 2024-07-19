@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.list-item-container {
+  border: solid 2px #b5b7c4;
+  border-radius: 10px;
+  padding: 15px;
+  max-height: 20vh;
+  min-width: 25vw;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.name-and-star-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name-hading {
+  color: black;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.star-button {
+  background-color: transparent;
+  border: none;
+}

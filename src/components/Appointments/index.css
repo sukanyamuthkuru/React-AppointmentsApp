@@ -1,0 +1,93 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.app-container {
+  padding: 50px;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+}
+.card-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px;
+}
+.first-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px #b5b7c4;
+  padding: 50px;
+}
+.inputs-container {
+}
+.appointment-heading {
+  font-family: 'Roboto';
+  margin-bottom: 40px;
+}
+.input-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-styling-label {
+  color: #b5b7c4;
+  margin-bottom: 10px;
+}
+.input-styling-text {
+  border: solid 2px #b5b7c4;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.input-date-container {
+  display: flex;
+  flex-direction: column;
+}
+.add-button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8b5cf6;
+  color: white;
+}
+.second-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+.heading-and-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.heading-appointments {
+  font-family: 'Roboto';
+}
+.inActive {
+  background-color: transparent;
+  border: solid 2px #8b5cf6;
+  padding: 10px;
+  border-radius: 5px;
+  color: #8b5cf6;
+  max-height: 6vh;
+}
+.active {
+  color: white;
+  max-height: 5vh;
+  border-radius: 6px;
+  padding: 10px;
+  border: none;
+  background-color: #8b5cf6;
+}
+
+.unordered-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  align-self: flex-start;
+}
